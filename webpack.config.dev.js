@@ -12,7 +12,7 @@ export default merge(commonConfig, {
   },
   plugins: [
     new ESLintPlugin({
-      extensions: ["js"],
+      extensions: ["js", "ts"],
       emitWarning: true,
     }),
   ],
